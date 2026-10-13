@@ -24,8 +24,8 @@ if getattr(sys, 'frozen', False):
 else:
     BASE_DIR = Path(__file__).resolve().parent
 
-INPUT_DIR  = BASE_DIR / "Отчёты" / "Важные" / "temp_in"
-OUTPUT_DIR = BASE_DIR / "Отчёты" / "Важные" / "temp_out"
+INPUT_DIR  = BASE_DIR / "Отчёты" / "Fazzy" / "temp_in"
+OUTPUT_DIR = BASE_DIR / "Отчёты" / "Fazzy" / "temp_out"
 TEMP_IN    = INPUT_DIR
 TEMP_OUT   = OUTPUT_DIR
 
